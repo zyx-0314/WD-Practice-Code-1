@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: "Dancing Script", serif;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+}
+
+.head-title {
+  text-align: center;
+  color: #000000;
+  background: rgba(253, 0, 0, 0.339);
+}
+
+.main-body {
+  background: rgb(114, 114, 114);
+  display: flex;
+  /* 1 value: apply to all */
+  /* 2 value: apply y x*/
+  /* padding: 0 2rem; */
+}
+
+.left {
+  width: 30vw;
+  padding: 1rem;
+}
+
+.right {
+  width: 70vw;
+  padding: 1rem;
+}
+
+.separator {
+    margin: 1rem 0;
+}
+
+.exp-header {
+    font-size: 2rem;
+    text-align: center;
+}
